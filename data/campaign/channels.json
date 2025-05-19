@@ -1,0 +1,27 @@
+{
+
+	"sampstonial_public":{
+		"name":"Sampstonial Broadcast Service",
+		"logo":"graphics/icons/intel/sampston_public.png",
+		"icon":"graphics/icons/intel/sampston_public.png",
+		"image":"graphics/factions/sampston.png",
+		"sound":"ui_channel_news",
+		"faction":"sampstonremnants",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"sampstonial_internal":{
+		"name":"Sampstonial Central Intelligence",
+		"logo":"graphics/icons/intel/sampston_intelligence.png",
+		"icon":"graphics/icons/intel/sampston_intelligence.png",
+		"image":"graphics/factions/sampston.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"sampstonremnants",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+
+}
+
+
+

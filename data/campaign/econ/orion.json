@@ -1,0 +1,75 @@
+{
+	"starSystem":"orion",
+	"markets":[
+		{
+			"entities":["newstonia", "newstonia_starport"],
+			"faction":"sampstonremnants",
+			"size":8,
+			"startingConditions":[
+				"population_8",
+				"habitable",
+				"mild_climate",
+				"organics_abundant",
+				"ore_abundant",
+				"farmland_rich",
+				"rare_ore_rich",
+			],
+			"industries":[
+				"population",
+				"farming",
+				"megaport",
+				"mining",
+				"refining",
+				["orbitalworks", "pristine_nanoforge"],
+				"lightindustry",
+				"starfortress",
+				"heavybatteries",
+				"highcommand",
+			],
+		},
+		{
+			"entities":["orion9", "orion9_station"],
+			"faction":"sampstonremnants",
+			"size":6,
+			"startingConditions":[
+				"no_atmosphere",
+				"population_6",
+				"ore_ultrarich",
+				"rare_ore_ultrarich",
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"mining",
+				"fuelprod",
+				"heavyindustry",
+				"heavybatteries",
+				"militarybase",
+				"battlestation",
+			],
+		},
+	],
+			"entities":["orion11", "orion11_station"],
+			"faction":"sampstonremnants",
+			"size":6,
+			"startingConditions":[
+				"thin_atmosphere",
+				"cold",
+				"population_6",
+				"ore_ultrarich",
+				"rare_ore_ultrarich",
+			],
+			"industries":[
+				"population",
+				"spaceport",
+				"mining",
+				"heavybatteries",
+				"militarybase",
+				"battlestation",
+			],
+		},
+	],
+}
+
+
+

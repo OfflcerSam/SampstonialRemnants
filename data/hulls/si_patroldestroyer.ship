@@ -1,0 +1,132 @@
+{
+  "hullName": "SI Patrol Destroyer",
+  "hullId": "si_patroldestroyer_m1",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/sampstonialdestroyer.png",
+  "style": "HIGH_TECH",
+  "height": 210,
+  "width": 63,
+  "center": [31.5, 102],
+  "collisionRadius": 116,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 110.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "heavyarmor",
+    "armoredweapons"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 164,
+      "angle": 60,
+      "locations": [64, 15]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 164,
+      "angle": -60,
+      "locations": [64, -15]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 164,
+      "angle": 99.5,
+      "locations": [-67.5, 28]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 164,
+      "angle": -99.5,
+      "locations": [-67.5, -28]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 44,
+      "angle": 0.5,
+      "locations": [88, -0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 164,
+      "angle": -80,
+      "locations": [-14, -25]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 164,
+      "angle": 80,
+      "locations": [-14, 25]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 316,
+      "angle": 0,
+      "locations": [3.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-97, 19],
+      "length": 49,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-97, -19],
+      "length": 49,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-101.5, -0],
+      "length": 59.5,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -96.5, -14,
+    -91.5, -31,
+    -25.5, -27,
+    -17, -28.5,
+    53.5, -22,
+    106.5, 0,
+    106.5, -0,
+    53.5, 22,
+    -17, 28.5,
+    -25.5, 27,
+    -91.5, 31,
+    -96.5, 14
+  ]
+}

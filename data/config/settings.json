@@ -15,7 +15,12 @@
 	#],
 	
     # This section is where we can define images that can be referenced ingame using Global.getSettings().getSpriteName("category", "name");
-	#"graphics":{
-	#	"category":{ "name":"graphics/ui/sector_age_young.png", }
-	#}
+	"designTypeColors":{
+		"Stonian Industries":[0,56,165,200],
+	},
+	"graphics":{
+		"blueprint_packages":{
+			"si_package":"graphics/icons/cargo/si_package_bp.png",
+		},
+	}
 }

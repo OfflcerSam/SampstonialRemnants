@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SampstonialRemnants">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jars/SampstonialRemnants.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
